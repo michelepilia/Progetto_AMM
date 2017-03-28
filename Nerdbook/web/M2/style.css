@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    color: blue;
+    font: sans-serif;
+}
+
+h1 {
+    color:blue;
+    font-size: 12px;
+}
+h2 {
+    color:blue;
+    font-size: 10px;
+}
+h3 {
+    color:blue;
+    font-size: 8px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+    background-color: gray;
+}
+
+.form {
+    background-color: skyblue;
+    .submit {
+        background-color: blue;
+        color: white;
+    }
+}
+
+
+

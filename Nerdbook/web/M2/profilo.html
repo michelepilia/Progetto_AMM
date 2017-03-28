@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Profilo </title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="nerd, book, facebook, social network">
+        <meta name="author" content="Michele Pilia">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <h1> NerdBook: Profilo </h1>
+        </header>
+        
+        <div id='barra_navigazione'>
+            <nav>
+                <ul>
+                    <li> <a href="descrizione.html"> Descrizione </a> </li>
+                    <li> <a href="login.html"> Login </a> </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="form2" class="form">
+            <form action="#" method="post">
+                <label for="nome" > Nome Utente: </label>
+                <input type="text" name="nome" id="nome"/>
+                <br>
+                <label for="cognome" > Cognome Utente: </label>
+                <input type="text" name="cognome" id="cognome"/>
+                <br>
+                <label for="img_profilo" > Link Immagine del Profilo: </label>
+                <input type="url" name="img_profilo" id="img_profilo"/>
+                <br>
+                <label for="presentazione" > Frase di Presentazione: </label>
+                <textarea rows='20' cols="40" name="presentazione" id="presentazione">
+                </textarea>
+                <br>
+                <label for="data" > Data di Nascita: </label>
+                <input type="date" name="data" id="data"/>
+                <br>
+                <label for="pswd" > Password: </label>
+                <input type="password" name="pswd" id="pswd"/>
+                <br>
+                <label for="conf_pswd" > Conferma Password: </label>
+                <input type="password" name="conf_pswd" id="conf_pswd"/>
+                <br>
+                <input type="submit" name="submit" value="Invio" id="submit2" class="submit"/>  
+            </form>
+        </div>
+    </body>
+</html>
+
